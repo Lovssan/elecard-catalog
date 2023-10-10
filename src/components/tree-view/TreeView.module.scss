@@ -1,0 +1,15 @@
+.title {
+	display: flex;
+	align-items: center;
+	background: #f6f6f6;
+	border: 1px #cbcbcb solid;
+	padding: 5px;
+	border-radius: 10px;
+	& img {
+		border-radius: 5px;
+		margin-left: 10px;
+		object-fit: cover;
+		width: 50px;
+		height: 50px;
+	}
+}
